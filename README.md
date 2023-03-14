@@ -34,6 +34,14 @@ git clone https://github.com/dev-eloy/elo-tools.git
 
 Open the Command Prompt, navigate to the project folder, and run python `main.py`.
 
+## Docker
+
+First you have to build image, and then run the application's Docker container with the following command:
+
+~~~
+docker run -it elotool
+~~~
+
 
 ## 📁 Folder structure
 
@@ -42,15 +50,17 @@ Open the Command Prompt, navigate to the project folder, and run python `main.py
  ┣ 📂assets
  ┃ ┗📷readme.png
  ┣ 📂scripts
- ┃ ┣ 📜downloads.py
- ┃ ┣ 📜ram.py
- ┃ ┣ 📜recycle.bin.py
- ┃ ┣ 📜system.py
- ┃ ┣ 📜temp.py
- ┃ ┣ 📜youtube.py
- ┣ 📜README.md
- ┣ 📜main.py
- ┣ 📜requirements.txt
+ ┃ ┣📜downloads.py
+ ┃ ┣📜ram.py
+ ┃ ┣📜recycle.bin.py
+ ┃ ┣📜system.py
+ ┃ ┣📜temp.py
+ ┃ ┣📜youtube.py
+ ┣📜README.md
+ ┣📜main.py
+ ┣📜requirements.txt
+ ┣🐋Dockerfile
+ ┣🐋.dockerignore
 ```
 
 
